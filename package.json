@@ -1,0 +1,33 @@
+{
+  "name": "serverless-compose-global-env",
+  "version": "0.0.0-development",
+  "description": "A serverless framework plugin, that gather all env values",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "serverless",
+    "serverless framework",
+    "plugins",
+    "layer",
+    "aws",
+    "amazon web services",
+    "lambda",
+    "nodejs",
+    "python"
+  ],
+  "author": "Chapman Cheng",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "cz-conventional-changelog": "^3.3.0",
+    "mocha": "^10.2.0",
+    "semantic-release": "^21.0.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
